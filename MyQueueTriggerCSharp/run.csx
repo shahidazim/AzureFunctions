@@ -2,7 +2,7 @@
 #r "AzureFunctionsLibrary1.dll"
 
 using System;
-using AzureFunctionsLibrary;
+using AzureFunctionsLibrary1;
 
 public static void Run(string myQueueItem, TraceWriter log)
 {

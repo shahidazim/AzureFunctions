@@ -1,4 +1,4 @@
-﻿namespace AzureFunctionsLibrary
+﻿namespace AzureFunctionsLibrary1
 {
     public class Message
     {
