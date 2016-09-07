@@ -2,6 +2,5 @@ C:\src\Research\Workflow\AzureFunctions\src\AzureFunctionsLibrary\AzureFunctions
 C:\src\Research\Workflow\AzureFunctions\src\AzureFunctionsLibrary\AzureFunctionsLibrary1\bin\Debug\AzureFunctionsLibrary1.pdb
 C:\src\Research\Workflow\AzureFunctions\src\AzureFunctionsLibrary\AzureFunctionsLibrary1\bin\Debug\Newtonsoft.Json.dll
 C:\src\Research\Workflow\AzureFunctions\src\AzureFunctionsLibrary\AzureFunctionsLibrary1\bin\Debug\Newtonsoft.Json.xml
-C:\src\Research\Workflow\AzureFunctions\src\AzureFunctionsLibrary\AzureFunctionsLibrary1\obj\Debug\AzureFunctionsLibrary1.csprojResolveAssemblyReference.cache
 C:\src\Research\Workflow\AzureFunctions\src\AzureFunctionsLibrary\AzureFunctionsLibrary1\obj\Debug\AzureFunctionsLibrary1.dll
 C:\src\Research\Workflow\AzureFunctions\src\AzureFunctionsLibrary\AzureFunctionsLibrary1\obj\Debug\AzureFunctionsLibrary1.pdb
