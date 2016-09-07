@@ -11,8 +11,7 @@ namespace AzureFunctionsLibrary1
         {
             Settings = new JsonSerializerSettings()
             {
-                TypeNameHandling = TypeNameHandling.Objects,
-                TypeNameAssemblyFormat = FormatterAssemblyStyle.Full
+                TypeNameHandling = TypeNameHandling.All
             };
         }
 
