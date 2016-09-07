@@ -1,4 +1,5 @@
 ﻿using Newtonsoft.Json;
+using System.Runtime.Serialization.Formatters;
 
 namespace AzureFunctionsLibrary1
 {
@@ -10,7 +11,8 @@ namespace AzureFunctionsLibrary1
         {
             Settings = new JsonSerializerSettings()
             {
-                TypeNameHandling = TypeNameHandling.All
+                TypeNameHandling = TypeNameHandling.Objects,
+                TypeNameAssemblyFormat = FormatterAssemblyStyle.Full
             };
         }
 
@@ -19,9 +21,9 @@ namespace AzureFunctionsLibrary1
             return JsonConvert.SerializeObject(value, Settings);
         }
 
-        public static object Deserialize(string value)
+        public static T Deserialize<T>(string value)
         {
-            return JsonConvert.DeserializeObject(value, Settings);
+            return JsonConvert.DeserializeObject<T>(value, Settings);
         }
     }
 }
