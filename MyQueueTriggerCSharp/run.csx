@@ -9,6 +9,6 @@ public static void Run(string myQueueItem, TraceWriter log)
 {
     log.Info($"C# Queue trigger function processed: {myQueueItem}");
     //var message = SerializerJson.Deserialize<Message>(myQueueItem);
-    var message = JsonConvert.DeserializeObject<T>(value, new JsonSerializerSettings { TypeNameHandling = TypeNameHandling.Auto });
+    var message = JsonConvert.DeserializeObject<Message>(value, new JsonSerializerSettings { TypeNameHandling = TypeNameHandling.Auto });
     log.Info($"Content: {message.Content}");
 }
