@@ -1,5 +1,4 @@
 ﻿using Newtonsoft.Json;
-using System.Runtime.Serialization.Formatters;
 
 namespace AzureFunctionsLibrary1
 {
@@ -9,7 +8,7 @@ namespace AzureFunctionsLibrary1
 
         static SerializerJson()
         {
-            Settings = new JsonSerializerSettings()
+            Settings = new JsonSerializerSettings
             {
                 TypeNameHandling = TypeNameHandling.All
             };
