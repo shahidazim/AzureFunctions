@@ -3,6 +3,7 @@
 
 using System;
 using Newtonsoft.Json;
+using AzureFunctionsLibrary;
 
 public static void Run(string myQueueItem, TraceWriter log)
 {
