@@ -1,5 +1,5 @@
 #r "Newtonsoft.Json"
-#r "AzureFunctionsLibrary1.dll"
+#r "bin\\AzureFunctionsLibrary1.dll"
 
 using System;
 using AzureFunctionsLibrary1;
