@@ -1,8 +1,7 @@
 #r "Newtonsoft.Json"
-#r "bin/AzureFunctionsLibrary.dll"
+#r "AzureFunctionsLibrary1.dll"
 
 using System;
-using Newtonsoft.Json;
 using AzureFunctionsLibrary;
 
 public static void Run(string myQueueItem, TraceWriter log)
