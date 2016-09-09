@@ -4,6 +4,7 @@
 using System;
 using AzureFunctionsLibrary1;
 using Newtonsoft.Json;
+using System.IO;
 
 public static void Run(string myQueueItem, TraceWriter log)
 {
@@ -11,4 +12,5 @@ public static void Run(string myQueueItem, TraceWriter log)
     var message = JsonConvert.DeserializeObject<Message>(myQueueItem);
     var content = MessageProcessor.Process(message);
     log.Info($"Content: {content}");
+    log.Info("Hello World!");
 }
